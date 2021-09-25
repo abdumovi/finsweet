@@ -4,18 +4,18 @@
   padding-bottom: 200px;
   position: relative;
 }
-#carrer-hero::after {
+.carrer__title{
+  position: relative;
+}
+.carrer__title::after {
   content: "";
   width: 46px;
   height: 52px;
-  display: inline-block;
+  position: absolute;
   background-image: url("../img/carrer-after.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  position: absolute;
-  top: 113px;
-  right: 160px;
+  top: -45px;
+  right: -52%;
 }
 .carrer__text {
   font-style: normal;
