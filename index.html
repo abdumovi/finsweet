@@ -64,6 +64,33 @@
     </div>
   </section>
   <main>
+    <section class="modal">
+      <div class="modal-elements">
+        <button class="modal-btn"><img src="./img/modal-img.svg" alt="modal"></button>
+        <h2 class="modal__title bold">Have a Question ? <br>
+          Let’s Get in Touch with us</h2>
+        <p class="modal__text regular">Fill up the form and the team will get back to within 24 hrs</p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="name regular">Name</label>
+          <input class="modal__input" type="text" name="name" required autocomplete="off" id="name" placeholder="Paresh Srichandan">
+          </div>
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="email">E-mail</label>
+            <input class="modal__input" type="email" name="email" required autocomplete="off" id="email" placeholder="Paresh@pixeto.com">
+          </div>
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="">Subject</label>
+            <input class="modal__input" type="text" name="subject" required autocomplete="off" id="subject" placeholder="For web design work Enquire ">
+          </div>
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="messege">Messege</label>
+            <input class="modal__input" type="text" name="messege" required autocomplete="off" id="messege" placeholder="Type your Messege">
+          </div>
+          <button class="modal__btn" type="submit">Send Messege</button>
+        </form>
+      </div>
+    </section>
     <section id="about">
       <div class="container">
         <h3 class="about__title">ABOUT US</h3>
@@ -369,5 +396,6 @@
   </div>
   </div>
 </footer>
+<script src="./js/main.js"></script>
 </body>
 </html>

@@ -387,6 +387,119 @@ p{
   left: 0;
 }
  
+/* modal */
+
+.modal{
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+.modal-btn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.modal__title::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url('../img/modal_5.svg');
+}
+
+.modal-elements{
+  position: absolute;
+  width: 823px;
+  height: 678px;
+  background-color:#fff;
+  padding: 48px 48px 48px 128px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: transform 0.4s ease;
+}
+.modal__title{
+  width: 619px;
+}
+.modal__form-items{
+  flex-direction: column;
+}
+.modal__text{
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.modal__lable{
+  margin-bottom: 8px;
+}
+
+.modal__input{
+  margin-bottom: 14px;
+  width: 405px;
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid #232536;
+  outline-color: rgba(35, 37, 54, 0.17);
+}
+.modal__input::placeholder{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.modal__btn {
+  margin-top: 13px;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  padding: 21px 68px 21px 32px;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-wihite);
+  opacity: 0.87;
+  background: var(--btn);
+}
+.modal__btn::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-image: url("../img/btn-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.modal__btn::after{
+  content: "";
+  width: 20px;
+  height: 12px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url('../img/btn-icon.svg');
+  bottom: 25px;
+  right: 23px;
+}
+.open{
+  display: block;
+}
+/* /modal */
+
 #our-servis{
   background-color: var(--red-bg);
   padding-top: 96px;
