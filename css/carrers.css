@@ -1,0 +1,196 @@
+/* css start carrers page */
+#carrer-hero {
+  padding-top: 121px;
+  padding-bottom: 200px;
+}
+.carrer__text {
+  font-style: normal;
+  font-weight: 500; 
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  opacity: 0.87;
+  text-align: center;
+}
+.carrer__title {
+  width: 624px;
+  text-align: center;
+  margin-top: 24px;
+}
+.carrer__subtext {
+  width: 624px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.carrers-imgs {
+  display: flex;
+  margin-top: 64px;
+  justify-content: center;
+  flex-direction: column;
+}
+.carrers-transfer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.carrers-transfer__text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.carrers-smile {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.carrer-smile__down {
+  cursor: pointer;
+}
+.carrers-workes {
+  background: var(--green-bg);
+}
+.intro-list {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  padding-left: 76px;
+  padding-right: 76px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 354px);
+  grid-template-rows: repeat(3, 243px);
+  grid-gap: 32px;
+}
+
+.intro-list__item {
+  background: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.intro-list__item:hover {
+  box-shadow: 4px 4px 14px -5px rgba(34, 60, 80, 0.2);
+}
+.intro-list__title {
+  margin-left: 48px;
+  margin-top: 48px;
+}
+.intro-list__text {
+  margin-left: 48px;
+  margin-top: 10px;
+}
+.intro-list__subtext {
+  margin-left: 48px;
+  margin-top: 3px;
+}
+.intro-list__link {
+  display: inline-block;
+  margin-left: 48px;
+  margin-top: 52px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.intro-list__link::after {
+  content: "";
+  width: 20px;
+  height: 6px;
+  display: inline-block;
+  background-image: url("../img/carrer-arrow-black.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 12px;
+  margin-bottom: 3px;
+}
+#skilled {
+  background: #FAFAFC;
+  margin-top: 96px;
+  padding-top: 96px;
+}
+.skilled__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+
+}
+.skilled__title {
+  width: 624px;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: 16px;
+}
+.skilled__subtext {
+  width: 624px;
+  margin-top: 24px;
+  opacity: 0.6;
+}
+
+.skilled-convenience {
+  margin-top: 64px;
+}
+.convenience-list {
+  display: grid;
+  grid-template-columns: repeat(3, 418px);
+  grid-template-rows: repeat(3, 188px);
+  grid-gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+.convenience-list__item {
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.convenience-list__item:hover {
+  box-shadow: 4px 4px 14px -5px rgba(34, 60, 80, 0.2);
+}
+.convenience-list__item::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url("../img/carrer-mask-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+.convenience-list__item:nth-child(2)::before {
+  background-image: url("../img/carrer-time-icon.svg");
+}
+.convenience-list__item:nth-child(3)::before {
+  background-image: url("../img/carrer-home-icon.svg");
+}
+.convenience-list__item:nth-child(4)::before {
+  background-image: url("../img/carrer-happy-icon.svg");
+}
+.convenience-list__item:nth-child(5)::before {
+  background-image: url("../img/carrer-money-icon.svg");
+}
+.convenience-list__item:nth-child(6)::before {
+  background-image: url("../img/carrer-strong-icon.svg");
+}
+.convenience-list__title {
+  width: 182px;
+  margin-top: 80px;
+  margin-left: 32px;
+}
+.convenience-list__text {
+  width: 352px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-left: 32px;
+}
