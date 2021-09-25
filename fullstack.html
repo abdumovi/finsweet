@@ -91,25 +91,31 @@
       <div class="fullstack-form-content">
         <h2 class="fullstack-form-content__text bold">Apply Now</h2>
         <form action="https://echo.htmlacademy.ru/">
-            <div class="form-group-name">
-              <label for="name">
-              <input class="form-group-name__inp regular" type="text" name="firstname" placeholder="First Name" id="name" required>
-              <input class="form-group-name__inp inp__two regular" type="text" name="lastname" placeholder="Last Name" id="name" required>
-              </label>
-            </div>
-            <div class="form-group-email">
-              <label for="email">
-                <input class="form-group-name__inp regular" type="email" name="email" placeholder="Email Id" id="email" required>
-                <input class="form-group-name__inp inp__two regular" type="tel" name="number" placeholder="Mobile No" id="email" required>
-              </label>
+            <div class="flex between align">
+              <div class="form-group-name">
+                <label class="form-grup-name__lable">
+                <input class="form-group-name__inp regular" type="text" name="firstname" placeholder="First Name" id="name" required>
+                </label>
+                <label class="form-grup-name__lable">
+                  <input class="form-group-name__inp regular" type="text" name="lastname" placeholder="Last Name" id="name" required>
+                </label>              
+              </div>
+              <div class="form-group-email">
+                <label class="form-grup-name__lable">
+                  <input class="form-group-name__inp inp__two regular" type="email" name="email" placeholder="Email Id" id="email" required>
+                </label>
+                <label class="form-grup-name__lable">
+                  <input class="form-group-name__inp inp__two regular" type="tel" name="number" placeholder="Mobile No" id="email" required>
+                </label>
+              </div>
             </div>
             <div class="form-group-area"> 
-              <label for="rea">
+              <label>
               <textarea class="form-group-area__area regular" name="comment" id="rea" placeholder="Why do you thing you are good fit for Ether?"></textarea>
               </label>
             </div>
             <div class="form-group-submit flex align-center">
-              <label for="check">
+              <label>
                 <input class="form-group-submit__check" type="checkbox" checked name="check" id="check" required>
               </label>
               <p class="form-group-submit__text regular">I agree to accept the privacy policy,  We will add your contact details provided in this form to our system for contacting you regarding your request.</p>
