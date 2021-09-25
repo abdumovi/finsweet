@@ -78,7 +78,20 @@
 .process {
   padding-top: 96px;
   padding-bottom: 96px;
+  position: relative;
 }
+
+.process::after{
+  content: "";
+  position: absolute;
+  background-image: url('../img/process-shapes.svg');
+  width: 29px;
+  height: 27px;
+  background-repeat: no-repeat;
+  top: 118px;
+  right: 0;
+}
+
 .process__texts {
   width: 733px;
   margin-bottom: 70px;
