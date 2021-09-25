@@ -155,15 +155,18 @@ p{
   opacity: 1;
   border-top: 3px solid #FFA155;
 }
+.header__btn{
+  display: flex;
+  align-items: center;
+}
 .header__btn::after{
   content: "";
-  width: 20px;
+  width: 22px;
   height: 12px;
-  position: absolute;
+  display: inline-block;
   background-repeat: no-repeat;
   background-image: url('../img/btn-icon.svg');
-  bottom: 32px;
-  right: -30px;  
+  margin-left: 8px;
 }
 /* SOHIBJON  */
 .sub {
