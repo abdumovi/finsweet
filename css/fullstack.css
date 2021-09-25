@@ -1,0 +1,178 @@
+#fullstack-hero {
+  margin-top: 96px;
+}
+.fullstack-hero-contents {
+  justify-content: center;
+  justify-content: space-around;
+}
+.fullstack-titles__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  opacity: 0.87;
+}
+.fullstack-hero-jobdes {
+  width: 515px;
+  height: 324px;
+  background-color: var(--red-bg);
+  position: relative;
+  bottom: 22px;
+}
+.fullstack-hero-jobdes::after {
+  content: "";
+  width: 48px;
+  height: 52px;
+  display: inline-block;
+  background-image: url("../img/fullstack-after.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  right: 0; 
+}
+.fullstack-titles__title {
+  margin-top: 24px;
+}
+.fullstack-titles__subtext {
+  width: 430px;
+  font-weight: normal;
+  margin-top: 16px;
+}
+.btn {
+  margin-top: 40px;
+}
+.jobdes-list {
+  margin-top: 75px;
+  margin-left: 80px;
+}
+.jobdes-list__item {
+  margin-bottom: 24px;
+}
+.job-list__title {
+  font-size: 24px;
+  line-height: 36px;
+}
+#fullstack-intro {
+  margin-top: 96px;
+}
+.fullstack-socialmedia {
+  background-color: #ECF8F9;
+}
+.fullstack-socialmedia-titles {
+  position: relative;
+  padding-top: 43px;
+}
+.fullstack-socialmedia-titles::after {
+  content: "";
+  width: 1280px;
+  height: 4px;
+  display: block;
+  background: #E0F1F2;
+  border-bottom: 2px solid #E0F1F2;
+  position: absolute;
+  z-index: 0;
+  top: 102px;
+}
+.fullstack-socialmedia-titles__title {
+  font-size: 24px;
+  margin-left: 96px;
+  line-height: 36px;
+  cursor: pointer;
+}
+.title__blue {
+  color: #454DFD;
+  position: relative;
+}
+.title__blue::after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 10px;
+  bottom: -27px;
+  position: absolute;
+  z-index: 2;
+  border-bottom: 5px solid #454DFD;
+}
+
+.fullstack-socialmedia-list {
+  margin-top: 100px;
+  width: 842px;
+}
+.social-lists {
+  margin-left: 219px;
+  padding-bottom: 96px;
+}
+.social-lists__item {
+  position: relative;
+}
+.social-lists__item::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  left: -25px;
+  top: 19px;
+}
+.social-lists__text {
+  margin-bottom: 24px;
+  color: #000;
+}
+#fullstackform {
+  margin-top: 96px;
+}
+.fullstack-form-content__text {
+  font-size: 36px;
+  line-height: 54px;
+}
+.form-group-name {
+  margin-top: 29px;
+}
+.form-group-name__inp {
+  padding: 25px 0;
+  padding-left: 40px;
+  padding-right: 50px;
+  width: 622px;
+  background-color: var(--mini-bg1);
+  border: none;
+  color: #000;
+  font-size: 18px;
+  line-height: 28px;
+  outline: none;
+}
+.form-group-email {
+  margin-top: 32px;
+}
+.inp__two {
+  margin-left: 32px;
+}
+.form-group-area__area {
+  width: 1280px;
+  height: 235px;
+  border: none;
+  resize: none;
+  background: rgba(210, 218, 237, 0.17);
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 28px;
+  padding-top: 32px;
+  padding-left: 40px;
+  outline: none;
+}
+.form-group-submit__check {
+  width: 30px;
+  height: 30px;
+  margin-top: 28px;
+}
+.form-group-submit__text {
+  margin-left: 24px;
+  width: 842px;
+  margin-top: 36px;
+}

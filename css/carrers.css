@@ -2,6 +2,20 @@
 #carrer-hero {
   padding-top: 121px;
   padding-bottom: 200px;
+  position: relative;
+}
+#carrer-hero::after {
+  content: "";
+  width: 46px;
+  height: 52px;
+  display: inline-block;
+  background-image: url("../img/carrer-after.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 113px;
+  right: 160px;
 }
 .carrer__text {
   font-style: normal;
