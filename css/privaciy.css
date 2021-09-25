@@ -1,0 +1,86 @@
+:root{
+  --text-wihite:#fff;
+  --text-regular: #5D5F6D;
+  --text-bold:#232536;
+  --text-link:#444CFC;
+  --text-semi-bold:#000;
+  /* bg */
+  --hero-bg: #232536;
+  --green-bg:#ECF8F9;
+  --red-bg:#FFE6D2;
+  /* MINI */
+  --mini-bg1:#F9F9FF;
+  --mini-bg2:#ECF8F9;
+  --mini-bg3:#666DFF;
+  --foter-bg: #FFE6D2;
+  /* button */
+  --btn:linear-gradient(180deg, #444CFC 0%, #444CFC 100%);
+
+}
+.pravicy__title{
+  margin-bottom: 8px;
+}
+#pravicy{
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+.pravicy{
+  position: relative;
+}
+.pravicy::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background:var(--red-bg);
+  top: -25px;
+}
+.pravicy::after{
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 52px;
+  background-repeat: no-repeat;
+  background-image: url('../img/privasy-aftr.svg');
+  right: 0;
+  top: -25px;
+}
+.pravisiy__text{
+  margin-bottom: 72px;
+}
+.privasy__content{
+  width: 902px;
+}
+.privaciy__des{
+  background-color: var(--green-bg);
+  padding: 96px 0;
+}
+.privasy__big-text{
+  margin-bottom: 24px;
+}
+.privasy__big-title{
+  margin-bottom: 24px;
+}
+.privasy__smal-title{
+  margin-top: 16px;
+}
+.privasy__smal-title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--text-bold);
+  margin-bottom: 16px;
+}
+.privaciy__des{
+  position: relative;
+}
+.privaciy__des::after{
+  content: "";
+  position: absolute;
+  width: 296px;
+  height: 24px;  
+  background-repeat: no-repeat;
+  background-image: url('../img/polisy-afrt.svg');
+  bottom: -22px;
+}
