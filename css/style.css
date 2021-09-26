@@ -139,6 +139,7 @@ p{
 }
 #main-header{
   background-color: var(--hero-bg);
+  border-bottom: 1px solid #e5e5e524;
 }
 .header__btn{
   font-style: normal;

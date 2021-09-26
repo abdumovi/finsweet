@@ -3,6 +3,9 @@
   height: 848px;
   margin-top: 96px;
 }
+#pad{
+  padding-top: 4px;
+}
 .around--bg {
   position: relative;
 }
