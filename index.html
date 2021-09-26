@@ -38,25 +38,300 @@
       </header>
     </div>
   </section>
-
-  <section id="subscribe">
+  <section id="hero">
     <div class="container">
-      <div class="sub">
-        <div class="subscribe">
-          <div class="subscribe-sec subscribe--bg">
-            <h2 class="subscribe-sec__title">NEWSLETTER</h2>
-            <h3 class="subscribe-sec__text">Subscribe our News Letter
-            to get Latest Updates.</h3>
-          </div>
-          <form class="subscribe-form">
-            <input class="subscribe-form__inp" type="email" placeholder="Paresh@Pixeto.com">
-          </form>
+      <div class="hero flex between align">
+        <div class="hero__des">
+          <h2 class="hero__title bold">Transform Your Idea Into Reality with Finsweet</h2>
+          <p class="hero__text regular">The entire Finsweet team knows what's good with Webflow and you can too with 1 week and a good attitude.</p>
+          <a class="hero__btn btn" href="#">Request Quote</a>
+        </div>
+        <div class="hero__imgs">
+          <img src="./img/heder-Image.jpg" alt="HeaderImage">
         </div>
       </div>
+      <ul class="hero__list flex between align">
+        <li class="hero__item">
+          <p class="hero__item-text">Our Clients</p>
+          <h4 class="hero__item-title semi-bold">We've Worked with</h4>
+        </li>
+        <li class="hero__item"><img src="./img/prtnores1.svg" alt="partnors"></li>
+        <li class="hero__item"><img src="./img/prtnores2.svg" alt="partnors"></li>
+        <li class="hero__item"><img src="./img/prtnores3.svg" alt="partnors"></li>
+        <li class="hero__item"><img src="./img/prtnores4.svg" alt="partnors"></li>
+        <li class="hero__item"><img src="./img/prtnores5.svg" alt="partnors"></li>
+      </ul>
     </div>
   </section>
-</body>
- <!-- footer -->
+  <main>
+    <section class="modal">
+      <div class="modal-elements">
+        <button class="modal-btn"><img src="./img/modal-img.svg" alt="modal"></button>
+        <h2 class="modal__title bold">Have a Question ? <br>
+          Let’s Get in Touch with us</h2>
+        <p class="modal__text regular">Fill up the form and the team will get back to within 24 hrs</p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="name regular">Name</label>
+          <input class="modal__input" type="text" name="name" required autocomplete="off" id="name" placeholder="Paresh Srichandan">
+          </div>
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="email">E-mail</label>
+            <input class="modal__input" type="email" name="email" required autocomplete="off" id="email" placeholder="Paresh@pixeto.com">
+          </div>
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="">Subject</label>
+            <input class="modal__input" type="text" name="subject" required autocomplete="off" id="subject" placeholder="For web design work Enquire ">
+          </div>
+          <div class="modal__form-items flex">
+            <label class="modal__lable" for="messege">Messege</label>
+            <input class="modal__input" type="text" name="messege" required autocomplete="off" id="messege" placeholder="Type your Messege">
+          </div>
+          <button class="modal__btn" type="submit">Send Messege</button>
+        </form>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h3 class="about__title">ABOUT US</h3>
+        <div class="about about-des flex between align">
+          <div class="about-des__block">
+            <h2 class="about-des__titles bold">The company leads entire webdesign process from concept to delivery.</h2>
+          </div>
+          <div class="about-des__block">
+            <h2 class="about-des__title bold">The Era Of Technology.</h2>
+            <p class="about-des__text regular">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense you position concluded. </p>
+          </div>
+        </div>
+        <div class="about__imgs flex between">
+          <div class="about__item"><img class="about__img" src="./img/about1.jpg" alt="about-img"></div>
+          <div class="about__item"><img class="about__img" src="./img/about2.jpg" alt="about-img"></div>
+          <div class="about__item about--img-after"><img class="about__img" src="./img/about3.jpg" alt="about-img"></div>
+        </div>
+        <div class="about about-statik flex between align">
+          <div class="about-statik__block flex">
+            <div class="about-statik__item">
+              <h2 class="about-statik__title bold">1560+</h2>
+              <p class="about-statik__text semi-bold">Project Delivered</p>
+            </div>
+            <div class="about-statik__item">
+              <h2 class="about-statik__title bold">100+</h2>
+              <p class="about-statik__text semi-bold">Professional</p>
+            </div>
+            <div class="about-statik__item">
+              <h2 class="about-statik__title bold">950+</h2>
+              <p class="about-statik__text semi-bold">Happy Client</p>
+            </div>
+            <div class="about-statik__item">
+              <h2 class="about-statik__title bold">10 yrs</h2>
+              <p class="about-statik__text semi-bold">Experience</p>
+            </div>
+          </div>
+          <a class="about-statik__link" href="#">Read about us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="our">
+      <div class="container">
+        <div class="our flex align between">
+          <div class="our__block">
+            <h3 class="our__mini-title">Our expertise</h3>
+            <h2 class="our__title bold">We want to get local identification in every corner of the world in this era of global citizenship</h2>
+            <p class="our__text regular">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense you position concluded. </p>
+          </div>
+          <div class="our__block">
+            <ul class="our our-content"> 
+              <li class="our-content__item">
+                 <h4 class="our-content__title semi-bold our-content__title--img1">On Time Delivery</h4>
+                 <p class="our-content__text regular">Through True Rich Attended does no end it his mother since real had half every him.</p>
+              </li>
+              <li class="our-content__item">
+                 <h4 class="our-content__title semi-bold our-content__title--img2">Best Quality</h4>
+                 <p class="our-content__text regular">Through True Rich Attended does no end it his mother since real had half every him.</p>
+              </li>
+              <li class="our-content__item out-content--after">
+                 <h4 class="our-content__title semi-bold our-content__title--img3">Support Assist</h4>
+                 <p class="our-content__text regular">Through True Rich Attended does no end it his mother since real had half every him.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-servis">
+      <div class="container">
+        <header class="our-servis__header servis-header">
+          <h3 class="servis-header__mini-title">Our Services</h3>
+          <h2 class="servis-header__title bold">We build software solutions that solve client's business challenges</h2>
+          <a class="btn" href="#">Start a Project</a>
+        </header>
+        <div class="our-servis__block">
+          <ul class="servis__list flex align between">
+            <li class="servis__item servis__item--img1">
+              <h4 class="servis__title semi-bold">Technical support</h4>
+              <p class="servis__text regular">We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
+              <a class="about-statik__link" href="#">Read about us</a>
+            </li>
+            <li class="servis__item servis__item--img2">
+              <h4 class="servis__title semi-bold">Testing Management</h4>
+              <p class="servis__text regular">We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
+              <a class="about-statik__link" href="#">Read about us</a>
+            </li>
+            <li class="servis__item servis__item--img3">
+              <h4 class="servis__title semi-bold">Development</h4>
+              <p class="servis__text regular">We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service</p>
+              <a class="about-statik__link" href="#">Read about us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="container">
+        <div class="process">
+          <div class="process__texts">
+            <p class="process__pre-title">Our Process</p>
+            <h2 class="process__title bold">The process we are working With Our client Worldwide</h2>
+            <p class="process__text regular">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable.</p>
+          </div>
+          <ul class="process__list">
+            <li class="process__item">
+              <span class="process__item-span">01</span>
+              <div class="process__item-texts">
+                <h3 class="process__item-title">Discover</h3>
+                <p class="process__item-text">We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+              </div>
+            </li>
+            <li class="process__item">
+              <span class="process__item-span">02</span>
+              <div class="process__item-texts">
+                <h3 class="process__item-title">Designing</h3>
+                <p class="process__item-text">We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+              </div>
+            </li>
+            <li class="process__item">
+              <span class="process__item-span">03</span>
+              <div class="process__item-texts">
+                <h3 class="process__item-title">Development</h3>
+                <p class="process__item-text">We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+              </div>
+            </li>
+            <li class="process__item">
+              <span class="process__item-span">04</span>
+              <div class="process__item-texts">
+                <h3 class="process__item-title">Testing</h3>
+                <p class="process__item-text">We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+              </div>
+            </li>
+            <li class="process__item">
+              <span class="process__item-span">05</span>
+              <div class="process__item-texts">
+                <h3 class="process__item-title">Deployment</h3>
+                <p class="process__item-text">We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+              </div>
+            </li>
+            <li class="process__item">
+              <span class="process__item-span">06</span>
+              <div class="process__item-texts">
+                <h3 class="process__item-title">Maintenance</h3>
+                <p class="process__item-text">We aim to attain the greatest satisfaction for our clients and be one of the prominent.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="costemer">
+      <div class="container"> 
+        <div class="costemer flex between">
+          <div class="costmer__block">
+            <h2 class="costmer__big-title bold">Our customers love what we do</h2>
+            <p class="costmer__mini-text">Transform your idea into reality with finsweet</p>
+            <p class="costmer__text regular">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            <ul class="costmer__list flex align">
+              <li class="costmer__item">
+                <img class="costmer__imgs" src="./img/costmer-img.png" alt="costmer__imgs">
+              </li>
+              <li class="costmer__item">
+                <img class="costmer__imgs" src="./img/costmer-img2.png" alt="costmer__imgs">
+              </li>
+              <li class="costmer__item">
+                <img class="costmer__imgs" src="./img/costmer-img3.png" alt="costmer__imgs">
+              </li>
+            </ul>
+            <p class="costmer__last-text">30+ Customer Reviews</p>
+          </div>
+          <div class="costmer__content">
+            <h2 class="costmer__content-title">Finsweet has been a wonderful partner to work with. I have been a customer now for the past few months now and I have had nothing but positive experiences!</h2>
+            <div class="costmer__content-clients clients flex between">
+              <div class="clients__des flex">
+                <div class="clients__imgs">
+                  <img class="costmer__imgs" src="./img/costmer-img.png" alt="costmer__imgs">
+                </div>
+                <div class="clients__names">
+                  <h2 class="clients__name">Johnny Andro</h2>
+                  <p class="clients__job regular">Director, Company</p>
+                </div>
+              </div>
+              <div class="clients__logos">
+                <img src="./img/clients-logo.svg" alt="clients">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="read">
+      <div class="container">
+        <h2 class="read__big-title bold">Read our latest blogs & news</h2>
+        <div class="read__elements flex between">
+          <div class="read__block flex">
+            <div class="read__img">
+              <img src="./img/read-img.jpg" alt="read">
+            </div>
+            <div class="read__item">
+              <time class="read__time regular" datetime="2021-09-25">Jan 19, 2021</time>
+              <h3 class="read__title">Today’s best design trends for digital products</h3>
+              <a class="about-statik__link" href="#">Read about us</a>
+            </div>
+          </div>
+          <div class="read__block flex">
+            <div class="read__img">
+              <img src="./img/read-img1.jpg" alt="read">
+            </div>
+            <div class="read__item">
+              <time class="read__time regular" datetime="2021-09-25">Jan 19, 2021</time>
+              <h3 class="read__title">Today’s best design trends for digital products</h3>
+              <a class="about-statik__link" href="#">Read about us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <div class="container">
+        <div class="sub">
+          <div class="subscribe">
+            <div class="subscribe-sec subscribe--bg">
+              <h2 class="subscribe-sec__title">NEWSLETTER</h2>
+              <h3 class="subscribe-sec__text">Subscribe our News Letter
+              to get Latest Updates.</h3>
+            </div>
+            <form class="subscribe-form">
+              <input class="subscribe-form__inp" type="email" placeholder="Paresh@Pixeto.com">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
  <footer>
   <div class="container">
     <div class="footer">
@@ -121,4 +396,5 @@
   </div>
   </div>
 </footer>
-</html> -->
+</body>
+</html>
