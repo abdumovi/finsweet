@@ -153,7 +153,10 @@ p{
 }
 .nav__link:hover{
   opacity: 1;
+}
+.activ--p{
   border-top: 3px solid #FFA155;
+  opacity: 1;
 }
 .header__btn{
   display: flex;
