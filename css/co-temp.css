@@ -50,6 +50,9 @@
   margin: 0 auto;
   margin-top: 32px;
 }
+.pad{
+  padding-top: 96px;
+}
 .template-link {
   font-size: 16px;
   color: var(--hero-bg);
